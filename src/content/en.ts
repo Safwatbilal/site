@@ -5,7 +5,7 @@ export const en: Dictionary = {
   meta: {
     title: "Safwat Bilal: Frontend Developer growing into Full-stack (React, Next.js, NestJS)",
     description:
-      "Frontend developer building multi-role web platforms (dashboards, subscriptions, real-time and Arabic/English interfaces) with React, Next.js and TypeScript.",
+      "Frontend developer building multi-role web platforms (dashboards, subscriptions, real-time and Arabic/English interfaces) with React, Next.js and TypeScript, with junior backend experience in Node.js and NestJS.",
   },
   nav: {
     work: "Work",
@@ -26,7 +26,7 @@ export const en: Dictionary = {
   hero: {
     label: "Frontend Developer · Junior on the backend with Node.js & NestJS",
     heading: "Clear interfaces for complex products.",
-    lead: "I'm Safwat Bilal, a frontend developer from Aleppo, Syria. Since 2024 I've been building the logged-in side of real products: creator dashboards, subscription and payment flows, and field-sales apps, in Arabic and English.",
+    lead: "I'm Safwat Bilal, a frontend developer from Aleppo, Syria, with junior-level backend knowledge in Node.js and NestJS. Since 2024 I've been building the logged-in side of real products: creator dashboards, subscription and payment flows, and field-sales apps, in Arabic and English.",
     proof: [
       { label: "Now", text: "Frontend Developer at Kadnya, a platform for Arabic-speaking creators" },
       { label: "Co-founder", text: "Tredro, 3 live apps for wholesale distribution" },
@@ -38,7 +38,7 @@ export const en: Dictionary = {
   work: {
     eyebrow: "Work",
     title: "Selected work",
-    intro: "Four products, each with a different kind of complexity.",
+    intro: "Four products and one full-stack personal project, each with a different kind of complexity.",
     myPart: "My part:",
     readCase: "Read case study",
     live: "Live",
@@ -129,7 +129,7 @@ export const en: Dictionary = {
     paragraphs: [
       "I studied Information Engineering at the University of Aleppo and graduated in 2026. Before I worked on frontend, I did competitive programming: I've solved more than 1,500 problems on Codeforces, AtCoder and CSES, and in the 2022–2023 season I placed 10th individually in Aleppo, and my team placed 6th in Aleppo and 22nd in Syria.",
       "That background still shapes how I work. A large product is mostly a hard problem broken into small pieces that behave predictably, and that is the part of frontend work I enjoy most.",
-      "My professional experience is on the frontend. On the backend, I have working knowledge of Node.js and NestJS, which helps me understand the APIs my interfaces depend on, and it is the side I am growing next.",
+      "My professional experience is on the frontend. On the backend, I have working knowledge of Node.js and NestJS (I wrote the NestJS backend of Turbo Type, a personal project), which helps me understand the APIs my interfaces depend on, and it is the side I am growing next.",
     ],
     facts: [
       { label: "Based in", value: "Aleppo, Syria (UTC+3)" },
@@ -141,7 +141,7 @@ export const en: Dictionary = {
   contact: {
     eyebrow: "Contact",
     heading: "Get in touch",
-    text: "I'm open to new frontend opportunities, remote or with teams building in Arabic and English. Email is the fastest way to reach me.",
+    text: "I'm open to new frontend or junior full-stack opportunities, remote or with teams building in Arabic and English. Email is the fastest way to reach me.",
     copy: "Copy email",
     copied: "Copied",
   },
@@ -177,6 +177,10 @@ export const en: Dictionary = {
     "dashboard-app-phone": "Company dashboard on a phone",
     "author-sign-up": "Author sign-up",
     "sign-in-phone": "Sign-in on a phone",
+    "security-compliance": "Security & Compliance dashboard",
+    "typing-test": "Typing test in progress, with live error highlighting",
+    results: "Results: accuracy, errors, characters typed and WPM",
+    "sign-up": "Sign-up screen",
   },
   projects: {
     kadnya: {
@@ -351,6 +355,37 @@ export const en: Dictionary = {
         ],
         notes: [],
         outcome: "Completed as my graduation project at the University of Aleppo (2026). Live at suttor.vercel.app.",
+      },
+    },
+    turbotype: {
+      name: "Turbo Type",
+      oneLiner: "A typing speed test with live feedback, instant results and typing contests with friends.",
+      myPart: "Built it end to end: the Next.js frontend and the NestJS backend, both in TypeScript.",
+      role: "Personal project",
+      period: "Full-stack",
+      place: "",
+      visualAlt: "Turbo Type typing test in progress",
+      caseStudy: {
+        summary: "A personal project I built end to end: a typing speed test with a Next.js frontend and a NestJS backend, written in TypeScript.",
+        meta: [
+          { label: "Role", value: "Personal project, full-stack" },
+          { label: "Frontend", value: "Next.js, TypeScript" },
+          { label: "Backend", value: "NestJS, TypeScript" },
+        ],
+        links: [{ label: "turbo-type-jq2u.vercel.app", href: "https://turbo-type-jq2u.vercel.app" }],
+        product:
+          "Turbo Type measures how fast and how accurately you type. A 30-second timer starts on the first key press, and every letter is marked right or wrong as you type a stream of random words. When time is up you see your accuracy, errors, characters typed and words per minute. A contests page lets you compete with friends, and accounts use email sign-up or Google sign-in.",
+        builtHeading: "What's in it",
+        built: [
+          { title: "Typing test", text: "Random words, a 30-second timer that starts on the first key press, and a restart button." },
+          { title: "Live feedback", text: "Each character turns white when correct and red when wrong, with a caret that follows your position." },
+          { title: "Results", text: "Accuracy, errors, characters typed and WPM, shown as soon as the timer ends." },
+          { title: "Contests", text: "A page for typing competitions with friends." },
+          { title: "Accounts", text: "Sign-up with name, email and password, and login with email or Google." },
+          { title: "Backend", text: "My own API, built with NestJS and TypeScript." },
+        ],
+        notes: [],
+        outcome: "Live at turbo-type-jq2u.vercel.app.",
       },
     },
   },

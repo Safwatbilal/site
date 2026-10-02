@@ -30,14 +30,14 @@ export default async function Home(props: PageProps<"/[locale]">) {
     "@type": "Person",
     name: profile.name,
     alternateName: profile.nameAr,
-    jobTitle: "Frontend Developer",
+    jobTitle: "Frontend Developer (Junior Backend: Node.js, NestJS)",
     url: `${siteUrl}/${locale}`,
     email: `mailto:${profile.email}`,
     address: { "@type": "PostalAddress", addressLocality: "Aleppo", addressCountry: "SY" },
     worksFor: { "@type": "Organization", name: "Kadnya", url: "https://kadnya.com" },
     alumniOf: { "@type": "CollegeOrUniversity", name: "University of Aleppo" },
     knowsLanguage: ["ar", "en"],
-    knowsAbout: ["React", "Next.js", "TypeScript", "Frontend development", "Internationalization", "RTL interfaces"],
+    knowsAbout: ["React", "Next.js", "TypeScript", "Frontend development", "Node.js", "NestJS", "Backend development", "Internationalization", "RTL interfaces"],
     sameAs: Object.values(profile.links),
   };
 
@@ -135,7 +135,7 @@ export default async function Home(props: PageProps<"/[locale]">) {
                       {p.myPart}
                     </p>
                     <p className="mt-4 text-sm text-ink-3">
-                      {p.role} · {p.period} · {p.place}
+                      {[p.role, p.period, p.place].filter(Boolean).join(" · ")}
                     </p>
                     <ul className="mt-4 flex flex-wrap gap-1.5" aria-label={d.work.technologies}>
                       {p.tags.map((t) => (

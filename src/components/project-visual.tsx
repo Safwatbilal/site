@@ -264,7 +264,8 @@ function Suttor() {
   );
 }
 
-const visuals = { tredro: Tredro, kadnya: Kadnya, nebu: Nebu, suttor: Suttor };
+// Turbo Type has real screenshots, so it needs no schematic.
+const visuals: Partial<Record<Project["visual"], () => ReactNode>> = { tredro: Tredro, kadnya: Kadnya, nebu: Nebu, suttor: Suttor };
 
 function BrowserShot({
   shot,
@@ -358,6 +359,7 @@ export function ProjectVisual({
     );
   }
   const Visual = visuals[project.visual];
+  if (!Visual) return null;
   return (
     <figure className="m-0">
       <div role="img" aria-label={project.visualAlt} className="select-none rounded-2xl bg-surface-2 p-4 sm:p-6">

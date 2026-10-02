@@ -5,7 +5,7 @@ export const ar: Dictionary = {
   meta: {
     title: "صفوت بلال: Frontend Developer في طريقه إلى Full-stack (React, Next.js, NestJS)",
     description:
-      "Frontend Developer يبني منصات ويب متعددة الأدوار: لوحات تحكم، واشتراكات، وميزات فورية، وواجهات عربية وإنجليزية، باستخدام React وNext.js وTypeScript.",
+      "Frontend Developer يبني منصات ويب متعددة الأدوار: لوحات تحكم، واشتراكات، وميزات فورية، وواجهات عربية وإنجليزية، باستخدام React وNext.js وTypeScript، مع خبرة مبتدئة في الـ Backend بـ Node.js وNestJS.",
   },
   nav: {
     work: "الأعمال",
@@ -26,7 +26,7 @@ export const ar: Dictionary = {
   hero: {
     label: "Frontend Developer · في بداية الـ Backend مع Node.js وNestJS",
     heading: "واجهات واضحة لمنتجات معقّدة.",
-    lead: "أنا صفوت بلال، Frontend Developer من حلب، سوريا. منذ 2024 أعمل على الجانب الداخلي من منتجات حقيقية: لوحات تحكم لصنّاع المعرفة، ومسارات الاشتراك والدفع، وتطبيقات للمبيعات الميدانية، بالعربية والإنجليزية.",
+    lead: "أنا صفوت بلال، Frontend Developer من حلب، سوريا، ولديّ معرفة مبتدئة بالـ Backend عبر Node.js وNestJS. منذ 2024 أعمل على الجانب الداخلي من منتجات حقيقية: لوحات تحكم لصنّاع المعرفة، ومسارات الاشتراك والدفع، وتطبيقات للمبيعات الميدانية، بالعربية والإنجليزية.",
     proof: [
       { label: "حالياً", text: "Frontend Developer في Kadnya، منصة لصنّاع المعرفة العرب" },
       { label: "Co-founder", text: "Tredro: 3 تطبيقات تعمل فعلياً لتوزيع الجملة" },
@@ -38,7 +38,7 @@ export const ar: Dictionary = {
   work: {
     eyebrow: "الأعمال",
     title: "أعمال مختارة",
-    intro: "أربعة منتجات، لكل منها نوع مختلف من التعقيد.",
+    intro: "أربعة منتجات ومشروع شخصي Full-stack، لكل منها نوع مختلف من التعقيد.",
     myPart: "دوري:",
     readCase: "اقرأ دراسة الحالة",
     live: "يعمل",
@@ -126,7 +126,7 @@ export const ar: Dictionary = {
     paragraphs: [
       "درست هندسة المعلوماتية في جامعة حلب وتخرّجت عام 2026. قبل أن أعمل في الـ Frontend، شاركت في البرمجة التنافسية: حللت أكثر من 1500 مسألة على Codeforces وAtCoder وCSES، وفي موسم 2022–2023 حللت في المرتبة العاشرة فردياً على مستوى حلب، وحلّ فريقي في المرتبة السادسة على مستوى حلب والثانية والعشرين على مستوى سوريا.",
       "ما زالت هذه الخلفية تشكّل طريقة عملي. المنتج الكبير في جوهره مسألة صعبة تُقسَّم إلى أجزاء صغيرة يمكن توقّع سلوكها، وهذا الجزء من عمل الـ Frontend هو أكثر ما أستمتع به.",
-      "خبرتي المهنية في الـ Frontend. وعلى جانب الـ Backend لديّ معرفة عملية بـ Node.js وNestJS، تساعدني على فهم الـ APIs التي تعتمد عليها واجهاتي، وهو الجانب الذي أعمل على تطويره الآن.",
+      "خبرتي المهنية في الـ Frontend. وعلى جانب الـ Backend لديّ معرفة عملية بـ Node.js وNestJS (كتبت الـ Backend لمشروعي الشخصي Turbo Type بـ NestJS)، تساعدني على فهم الـ APIs التي تعتمد عليها واجهاتي، وهو الجانب الذي أعمل على تطويره الآن.",
     ],
     facts: [
       { label: "المكان", value: "حلب، سوريا (UTC+3)" },
@@ -138,7 +138,7 @@ export const ar: Dictionary = {
   contact: {
     eyebrow: "تواصل",
     heading: "لنتواصل",
-    text: "أنا منفتح على فرص Frontend جديدة، عن بُعد أو مع فرق تبني منتجات بالعربية والإنجليزية. البريد الإلكتروني أسرع طريقة للتواصل معي.",
+    text: "أنا منفتح على فرص Frontend أو Junior Full-stack جديدة، عن بُعد أو مع فرق تبني منتجات بالعربية والإنجليزية. البريد الإلكتروني أسرع طريقة للتواصل معي.",
     copy: "نسخ البريد",
     copied: "تم النسخ",
   },
@@ -174,6 +174,10 @@ export const ar: Dictionary = {
     "dashboard-app-phone": "Dashboard الشركة على الهاتف",
     "author-sign-up": "تسجيل الكتّاب",
     "sign-in-phone": "تسجيل الدخول على الهاتف",
+    "security-compliance": "Dashboard الـ Security & Compliance",
+    "typing-test": "اختبار الكتابة أثناء التنفيذ، مع إظهار الأخطاء فوراً",
+    results: "النتائج: الدقّة، والأخطاء، وعدد الأحرف، والـ WPM",
+    "sign-up": "شاشة التسجيل",
   },
   projects: {
     kadnya: {
@@ -344,6 +348,36 @@ export const ar: Dictionary = {
         outcome: "أُنجز كمشروع تخرّجي في جامعة حلب (2026)، ويعمل على suttor.vercel.app.",
       },
     },
+    turbotype: {
+      name: "Turbo Type",
+      oneLiner: "اختبار لسرعة الكتابة مع تصحيح فوري أثناء الكتابة، ونتائج مباشرة، ومسابقات كتابة مع الأصدقاء.",
+      myPart: "بنيته بالكامل: الـ Frontend بـ Next.js والـ Backend بـ NestJS، وكلاهما بـ TypeScript.",
+      role: "مشروع شخصي",
+      period: "Full-stack",
+      place: "",
+      visualAlt: "اختبار الكتابة في Turbo Type أثناء التنفيذ",
+      caseStudy: {
+        summary: "مشروع شخصي بنيته من البداية للنهاية: اختبار لسرعة الكتابة، الـ Frontend فيه بـ Next.js والـ Backend بـ NestJS، ومكتوب بـ TypeScript.",
+        meta: [
+          { label: "الدور", value: "مشروع شخصي، Full-stack" },
+          { label: "Frontend", value: "Next.js, TypeScript" },
+          { label: "Backend", value: "NestJS, TypeScript" },
+        ],
+        links: [{ label: "turbo-type-jq2u.vercel.app", href: "https://turbo-type-jq2u.vercel.app" }],
+        product:
+          "Turbo Type يقيس سرعة كتابتك ودقّتها. يبدأ مؤقّت من 30 ثانية مع أول ضغطة زر، وكل حرف يُعلَّم صحيحاً أو خاطئاً وأنت تكتب سلسلة من الكلمات العشوائية. وعند انتهاء الوقت تظهر الدقّة، وعدد الأخطاء، وعدد الأحرف المكتوبة، والكلمات في الدقيقة (WPM). وفيه صفحة مسابقات للتنافس مع الأصدقاء، وحسابات بالتسجيل عبر البريد أو الدخول بـ Google.",
+        builtHeading: "ماذا يتضمّن",
+        built: [
+          { title: "اختبار الكتابة", text: "كلمات عشوائية، ومؤقّت 30 ثانية يبدأ مع أول ضغطة، وزر لإعادة الاختبار." },
+          { title: "تصحيح فوري", text: "كل حرف يصبح أبيض إذا كان صحيحاً وأحمر إذا كان خاطئاً، مع مؤشّر يتبع موقعك." },
+          { title: "النتائج", text: "الدقّة، والأخطاء، وعدد الأحرف، والـ WPM، تظهر فور انتهاء الوقت." },
+          { title: "المسابقات", text: "صفحة لمسابقات الكتابة مع الأصدقاء." },
+          { title: "الحسابات", text: "تسجيل بالاسم والبريد وكلمة المرور، ودخول بالبريد أو بـ Google." },
+          { title: "Backend", text: "API خاص بي، مبني بـ NestJS وTypeScript." },
+        ],
+        notes: [],
+        outcome: "يعمل على turbo-type-jq2u.vercel.app.",
+      },
+    },
   },
 };
-
