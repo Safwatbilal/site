@@ -181,6 +181,9 @@ export const en: Dictionary = {
     "typing-test": "Typing test in progress, with live error highlighting",
     results: "Results: accuracy, errors, characters typed and WPM",
     "sign-up": "Sign-up screen",
+    dashboard: "Creator dashboard: revenue, students, conversion and AI credits",
+    "website-templates": "Website themes, free and paid",
+    "roles-permissions": "Roles & permissions management",
   },
   projects: {
     kadnya: {

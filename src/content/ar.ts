@@ -178,6 +178,9 @@ export const ar: Dictionary = {
     "typing-test": "اختبار الكتابة أثناء التنفيذ، مع إظهار الأخطاء فوراً",
     results: "النتائج: الدقّة، والأخطاء، وعدد الأحرف، والـ WPM",
     "sign-up": "شاشة التسجيل",
+    dashboard: "Dashboard صاحب المحتوى: الإيرادات، والطلاب، ونسبة التحويل، ورصيد الـ AI",
+    "website-templates": "قوالب المواقع، المجانية والمدفوعة",
+    "roles-permissions": "إدارة الأدوار والصلاحيات (Roles & Permissions)",
   },
   projects: {
     kadnya: {
