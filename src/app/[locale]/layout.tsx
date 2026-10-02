@@ -35,7 +35,7 @@ export async function generateMetadata(props: LayoutProps<"/[locale]">): Promise
     applicationName: profile.name,
     authors: [{ name: profile.name, url: siteUrl }],
     creator: profile.name,
-    keywords: ["Frontend Developer", "React Developer", "Next.js Developer", "TypeScript", "Arabic RTL", "Syria", "Safwat Bilal", "صفوت بلال", "مطور واجهات أمامية"],
+    keywords: ["Frontend Developer", "React Developer", "Next.js Developer", "TypeScript", "NestJS", "Node.js", "Arabic RTL", "Syria", "Safwat Bilal", "صفوت بلال", "مطور واجهات أمامية"],
     alternates: {
       canonical: `/${locale}`,
       languages: { en: "/en", ar: "/ar", "x-default": "/en" },
@@ -86,7 +86,7 @@ export default async function RootLayout(props: LayoutProps<"/[locale]">) {
         >
           {d.nav.skip}
         </a>
-        <Header locale={locale} nav={d.nav} name={locale === "ar" ? profile.nameAr : profile.name} />
+        <Header locale={locale} nav={d.nav} name={profile.name} />
         <main id="main" className="flex-1">
           {props.children}
         </main>

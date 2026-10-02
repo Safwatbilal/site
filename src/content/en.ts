@@ -3,7 +3,7 @@ import type { Dictionary } from "./types";
 export const en: Dictionary = {
   langName: "English",
   meta: {
-    title: "Safwat Bilal: Frontend Developer (React, Next.js, TypeScript)",
+    title: "Safwat Bilal: Frontend Developer growing into Full-stack (React, Next.js, NestJS)",
     description:
       "Frontend developer building multi-role web platforms (dashboards, subscriptions, real-time and Arabic/English interfaces) with React, Next.js and TypeScript.",
   },
@@ -24,7 +24,7 @@ export const en: Dictionary = {
     newTab: "(opens in a new tab)",
   },
   hero: {
-    label: "Frontend Developer · React, Next.js & TypeScript",
+    label: "Frontend Developer · Junior on the backend with Node.js & NestJS",
     heading: "Clear interfaces for complex products.",
     lead: "I'm Safwat Bilal, a frontend developer from Aleppo, Syria. Since 2024 I've been building the logged-in side of real products: creator dashboards, subscription and payment flows, and field-sales apps, in Arabic and English.",
     proof: [
@@ -121,7 +121,7 @@ export const en: Dictionary = {
         where: ["Tredro"],
       },
     ],
-    stackGroups: ["Languages", "Frameworks", "Data & state", "Forms & validation", "UI", "Platforms", "Workflow"],
+    stackGroups: ["Languages", "Frameworks", "Data & state", "Forms & validation", "UI", "Backend (working knowledge)", "Platforms", "Workflow"],
   },
   about: {
     eyebrow: "About",
@@ -129,6 +129,7 @@ export const en: Dictionary = {
     paragraphs: [
       "I studied Information Engineering at the University of Aleppo and graduated in 2026. Before I worked on frontend, I did competitive programming: I've solved more than 1,500 problems on Codeforces, AtCoder and CSES, and in the 2022–2023 season I placed 10th individually in Aleppo, and my team placed 6th in Aleppo and 22nd in Syria.",
       "That background still shapes how I work. A large product is mostly a hard problem broken into small pieces that behave predictably, and that is the part of frontend work I enjoy most.",
+      "My professional experience is on the frontend. On the backend, I have working knowledge of Node.js and NestJS, which helps me understand the APIs my interfaces depend on, and it is the side I am growing next.",
     ],
     facts: [
       { label: "Based in", value: "Aleppo, Syria (UTC+3)" },
@@ -163,6 +164,19 @@ export const en: Dictionary = {
     title: "This page doesn't exist.",
     text: "The link may be old. The work is still here.",
     back: "Back to home",
+  },
+  shotLabels: {
+    "sign-in": "Sign-in screen",
+    overview: "Overview dashboard",
+    books: "Books collection with category and author filters",
+    "ai-assistant": "Suttor AI, the reading assistant",
+    "author-quiz": "Author verification quiz",
+    "dashboard-sign-in": "Company dashboard, sign-in",
+    "rep-app-phone": "Rep app on Android",
+    "customer-app-phone": "Customer app on Android",
+    "dashboard-app-phone": "Company dashboard on a phone",
+    "author-sign-up": "Author sign-up",
+    "sign-in-phone": "Sign-in on a phone",
   },
   projects: {
     kadnya: {
@@ -307,7 +321,7 @@ export const en: Dictionary = {
     suttor: {
       name: "Suttor",
       oneLiner:
-        "An Arabic platform for readers and writers: build your own library, track your reading, and follow authors and articles.",
+        "An Arabic platform for readers and writers: a books library, reading tracking, an AI reading assistant, and verified authors.",
       myPart: "My graduation project, live on the web.",
       role: "Graduation project",
       period: "2026",
@@ -323,13 +337,16 @@ export const en: Dictionary = {
         ],
         links: [{ label: "suttor.vercel.app", href: "https://suttor.vercel.app" }],
         product:
-          "Suttor (سطور, “lines”) is an Arabic platform for readers. Readers build a personal library, keep a reading list, log their daily progress and write notes on what they read. Writers can join as authors, and readers can browse an authors directory and an articles section.",
+          "Suttor (سطور, “lines”) is an Arabic platform for readers. Readers build a personal library, keep a reading list, log their daily progress and write notes on what they read. Writers can join as authors after passing a verification quiz on their own book, and readers can browse books, authors and articles, or ask Suttor AI for suggestions.",
         builtHeading: "What's in it",
         built: [
+          { title: "Books collection", text: "Browse and search books with filters by category and by author, open book PDFs, and upload new books." },
           { title: "Reading library", text: "Add books to a reading list, track progress day by day, and write notes and thoughts." },
+          { title: "Suttor AI", text: "A chat assistant inside the platform that answers questions and suggests books from the library." },
+          { title: "Author verification", text: "Writers who join take a timed, 10-question quiz about their own book; passing earns a verified-author badge." },
+          { title: "Management dashboard", text: "Statistics, users, writers, books, categories, articles and notifications." },
           { title: "Authors directory", text: "Browse authors, search by name, and view registered and unregistered authors separately." },
           { title: "Articles", text: "The latest articles, with filters by category and by author." },
-          { title: "Accounts", text: "Reader sign-in, plus a separate sign-up flow for writers who want to join as authors." },
           { title: "Arabic-first design", text: "Right-to-left throughout, with a light/dark theme switch." },
         ],
         notes: [],
