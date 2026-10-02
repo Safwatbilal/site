@@ -295,7 +295,10 @@ function BrowserShot({
         height={shot.height}
         priority={priority}
         sizes={sizes}
-        className={crop ? "aspect-16/10 h-auto w-full object-cover object-top" : "h-auto w-full"}
+        className={
+          // Only trim shots taller than 16:10; wider ones show in full.
+          crop && shot.height / shot.width > 10 / 16 ? "aspect-16/10 h-auto w-full object-cover object-top" : "h-auto w-full"
+        }
       />
     </div>
   );

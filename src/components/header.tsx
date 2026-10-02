@@ -105,7 +105,6 @@ export function Header({ locale, nav, name }: { locale: Locale; nav: Dictionary[
                 </li>
               ))}
             </ul>
-            <LangLink href={otherHref} locale={other} label={nav.switchTo} className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-[10px] border border-line px-4 font-semibold text-ink" onClick={close} />
           </nav>
         </div>
       </dialog>
@@ -119,7 +118,6 @@ function LangLink({
   label,
   short,
   className,
-  onClick,
 }: {
   href: string;
   locale: Locale;
@@ -127,10 +125,12 @@ function LangLink({
   // Compact label for narrow screens; the full name stays available to screen readers.
   short?: string;
   className: string;
-  onClick?: () => void;
 }) {
+  // A plain <a> on purpose: a client-side switch re-renders <html> from the server,
+  // which drops the saved data-theme and keeps the old scroll offset in a page whose
+  // length has changed. A full load runs the theme script before paint and starts at the top.
   return (
-    <Link href={href} hrefLang={locale} lang={locale} onClick={onClick} className={className}>
+    <a href={href} hrefLang={locale} lang={locale} className={className}>
       <Icon name="languages" size={18} />
       {short ? (
         <>
@@ -140,6 +140,6 @@ function LangLink({
       ) : (
         label
       )}
-    </Link>
+    </a>
   );
 }
